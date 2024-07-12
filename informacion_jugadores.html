@@ -1,0 +1,1013 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información de Jugadores</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .zero-points {
+            color: red;
+        }
+        #chart-container {
+            width: 50%;
+            margin: 50px auto;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Información de Jugadores</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre del Jugador</th>
+                <th>Total de Caza</th>
+                <th>Nivel 1</th>
+                <th>Nivel 2</th>
+                <th>Nivel 3</th>
+                <th>Nivel 4</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            <tr class="">
+                <td>nagumokun</td>
+                <td>42</td>
+                <td>38</td>
+                <td>3</td>
+                <td>1</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>Joluma0307</td>
+                <td>31</td>
+                <td>27</td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>kili 1</td>
+                <td>30</td>
+                <td>27</td>
+                <td>2</td>
+                <td>1</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>Pr0tec</td>
+                <td>29</td>
+                <td>15</td>
+                <td>14</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>B3732</td>
+                <td>27</td>
+                <td>0</td>
+                <td>23</td>
+                <td>4</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>SIGMA72</td>
+                <td>25</td>
+                <td>25</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>antuan77</td>
+                <td>24</td>
+                <td>0</td>
+                <td>24</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>LordsKratos1</td>
+                <td>24</td>
+                <td>0</td>
+                <td>24</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>K1ngK0nng</td>
+                <td>24</td>
+                <td>20</td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>Zenitsu21</td>
+                <td>22</td>
+                <td>13</td>
+                <td>9</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>Takels</td>
+                <td>21</td>
+                <td>21</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>XxJeysbel xX</td>
+                <td>20</td>
+                <td>0</td>
+                <td>18</td>
+                <td>2</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>Katana 1403</td>
+                <td>20</td>
+                <td>20</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>Mika 95</td>
+                <td>20</td>
+                <td>18</td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>Death Noise</td>
+                <td>20</td>
+                <td>15</td>
+                <td>5</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>iamAlbatross</td>
+                <td>19</td>
+                <td>0</td>
+                <td>10</td>
+                <td>9</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>Chris Prime</td>
+                <td>19</td>
+                <td>0</td>
+                <td>19</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>Pollo08</td>
+                <td>19</td>
+                <td>11</td>
+                <td>8</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>Buscador21</td>
+                <td>18</td>
+                <td>0</td>
+                <td>18</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>XxGatubelaxX</td>
+                <td>18</td>
+                <td>0</td>
+                <td>18</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>Wind 201</td>
+                <td>17</td>
+                <td>0</td>
+                <td>17</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>At0m021</td>
+                <td>17</td>
+                <td>0</td>
+                <td>17</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>JCRM</td>
+                <td>16</td>
+                <td>0</td>
+                <td>9</td>
+                <td>4</td>
+                <td>3</td>
+            </tr>
+            
+            <tr class="">
+                <td>pollo022</td>
+                <td>15</td>
+                <td>4</td>
+                <td>10</td>
+                <td>1</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>Mstica01</td>
+                <td>15</td>
+                <td>4</td>
+                <td>11</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>karitos67890</td>
+                <td>15</td>
+                <td>15</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>Mist 77</td>
+                <td>14</td>
+                <td>0</td>
+                <td>14</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>YanethB</td>
+                <td>14</td>
+                <td>0</td>
+                <td>10</td>
+                <td>4</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>Alex Daniel</td>
+                <td>13</td>
+                <td>0</td>
+                <td>13</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>0000O0O</td>
+                <td>13</td>
+                <td>0</td>
+                <td>13</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>lokitaa</td>
+                <td>12</td>
+                <td>0</td>
+                <td>12</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>xShinigamIxX</td>
+                <td>12</td>
+                <td>0</td>
+                <td>12</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>karitos54321</td>
+                <td>11</td>
+                <td>10</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>0 Nadie 0</td>
+                <td>11</td>
+                <td>0</td>
+                <td>11</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>SUFRIDO</td>
+                <td>11</td>
+                <td>7</td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>SUPER SONY 1</td>
+                <td>11</td>
+                <td>0</td>
+                <td>10</td>
+                <td>1</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>Mollitiam</td>
+                <td>11</td>
+                <td>11</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>Alex P63</td>
+                <td>10</td>
+                <td>10</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>0x Skynet x0</td>
+                <td>10</td>
+                <td>0</td>
+                <td>10</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>BfMe i</td>
+                <td>9</td>
+                <td>0</td>
+                <td>7</td>
+                <td>2</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>FENRIR XL</td>
+                <td>9</td>
+                <td>0</td>
+                <td>9</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>Cuchillo87</td>
+                <td>9</td>
+                <td>4</td>
+                <td>5</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>darkderok</td>
+                <td>9</td>
+                <td>6</td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>Khaleesi xXx</td>
+                <td>8</td>
+                <td>7</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>Nezuko xXx</td>
+                <td>8</td>
+                <td>0</td>
+                <td>8</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>XxShadooWxX</td>
+                <td>8</td>
+                <td>2</td>
+                <td>6</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>NES 1</td>
+                <td>7</td>
+                <td>2</td>
+                <td>1</td>
+                <td>4</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>Sebas 2018</td>
+                <td>7</td>
+                <td>0</td>
+                <td>0</td>
+                <td>7</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>Mz Batman zM</td>
+                <td>7</td>
+                <td>0</td>
+                <td>7</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>oOo Samu oOo</td>
+                <td>7</td>
+                <td>0</td>
+                <td>7</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>Mariod</td>
+                <td>6</td>
+                <td>0</td>
+                <td>5</td>
+                <td>1</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>HectorJD</td>
+                <td>6</td>
+                <td>0</td>
+                <td>6</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>MonoXL</td>
+                <td>6</td>
+                <td>0</td>
+                <td>6</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>carlope</td>
+                <td>6</td>
+                <td>0</td>
+                <td>6</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>viktor2329</td>
+                <td>6</td>
+                <td>0</td>
+                <td>5</td>
+                <td>1</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>Simpsonaaa</td>
+                <td>6</td>
+                <td>1</td>
+                <td>5</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>Lord Bardo</td>
+                <td>6</td>
+                <td>0</td>
+                <td>6</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>CharlesBraun</td>
+                <td>5</td>
+                <td>0</td>
+                <td>0</td>
+                <td>4</td>
+                <td>1</td>
+            </tr>
+            
+            <tr class="">
+                <td>Davidguti10</td>
+                <td>5</td>
+                <td>0</td>
+                <td>0</td>
+                <td>5</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>Dominik139</td>
+                <td>5</td>
+                <td>1</td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>Escudo Roble</td>
+                <td>5</td>
+                <td>0</td>
+                <td>0</td>
+                <td>5</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>Gonzalo2</td>
+                <td>5</td>
+                <td>0</td>
+                <td>5</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>Zeniitsu22</td>
+                <td>5</td>
+                <td>4</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>LordGUZ</td>
+                <td>4</td>
+                <td>0</td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>MALBORO 1</td>
+                <td>4</td>
+                <td>0</td>
+                <td>3</td>
+                <td>1</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>Charly1404</td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+            
+            <tr class="">
+                <td>maribel 1303</td>
+                <td>4</td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>Maxiii</td>
+                <td>3</td>
+                <td>0</td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>Naz DerKonig</td>
+                <td>3</td>
+                <td>0</td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>khalizucoXXL</td>
+                <td>3</td>
+                <td>0</td>
+                <td>1</td>
+                <td>2</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>SISQUI</td>
+                <td>3</td>
+                <td>0</td>
+                <td>2</td>
+                <td>1</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>KINGxDxZORO</td>
+                <td>3</td>
+                <td>0</td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>andreus</td>
+                <td>3</td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>Baby NES</td>
+                <td>3</td>
+                <td>1</td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>MALB0R02329</td>
+                <td>3</td>
+                <td>0</td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>Dios80</td>
+                <td>3</td>
+                <td>0</td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>BigMani222</td>
+                <td>3</td>
+                <td>2</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>Maaxxi</td>
+                <td>2</td>
+                <td>0</td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>LordGuz2</td>
+                <td>2</td>
+                <td>0</td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>KINGxDxLUFFY</td>
+                <td>2</td>
+                <td>0</td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>KINGxDxTLAW</td>
+                <td>2</td>
+                <td>0</td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>KINGxDxREN</td>
+                <td>2</td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>KINGxDxTOMI</td>
+                <td>2</td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>BigMANI</td>
+                <td>2</td>
+                <td>0</td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>Americano95</td>
+                <td>2</td>
+                <td>0</td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>pelu22222222</td>
+                <td>2</td>
+                <td>0</td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>ReIbAx</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+            </tr>
+            
+            <tr class="">
+                <td>Giovanna K</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>RIUK YY</td>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>KINGxDxSANJI</td>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>yinx1351</td>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>xtz12</td>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="">
+                <td>sshiffu</td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="zero-points">
+                <td>shifuu</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="zero-points">
+                <td>MATIOLI 23</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="zero-points">
+                <td>Antequeruela</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="zero-points">
+                <td>MessiMiamiFC</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="zero-points">
+                <td>Pritam001</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="zero-points">
+                <td>KINGxDxOFF</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="zero-points">
+                <td>ZeEeUuUS</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="zero-points">
+                <td>PRIINCESA01</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="zero-points">
+                <td>SiriusJeager</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="zero-points">
+                <td>KINGxDxBABY</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+        </tbody>
+    </table>
+    <div id="chart-container">
+        <canvas id="myChart"></canvas>
+    </div>
+    <script>
+        const ctx = document.getElementById('myChart').getContext('2d');
+        const myChart = new Chart(ctx, {
+            type: 'pie',
+            data: {
+                labels: ['Nivel 1', 'Nivel 2', 'Nivel 3', 'Nivel 4'],
+                datasets: [{
+                    data: [353, 527, 64, 7],
+                    backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        position: 'top',
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                const label = context.label || '';
+                                const value = context.raw || 0;
+                                const total = context.chart._metasets[0].total;
+                                const percentage = ((value / total) * 100).toFixed(2) + '%';
+                                return label + ': ' + percentage;
+                            }
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
